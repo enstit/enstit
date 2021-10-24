@@ -1,4 +1,14 @@
-### Hi there 👋
+### Hello, World! 👋🏼
+
+My name's **Enrico**, and I'm a young **data scientist** from Italy! 🇮🇹  
+I'm currently studying at [🎓 University of Udine](https://www.uniud.it/en/uniud-international?set_language=en), and I'm interning at [💻 Danieli Automation S.p.A.](https://www.dca.it).
+
+I don't like social networks so much, so you can only find me on [👔 LinkedIn](https://www.linkedin.com/in/enricostefanel/).  
+You can also send me an [📧 e-mail](mailto:me@enst.it?subject=[GitHub]%20Greetings), if you want.
+
+> There are two types of people in this world: those who see things happen, and those who make things happen.
+
+See ya!
 
 <!--
 **enstit/enstit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
