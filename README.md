@@ -1,7 +1,7 @@
 ### Hello, World! 👋🏼
 
 My name's **Enrico**, and I'm a young **data scientist** from Italy! 🇮🇹  
-I'm currently studying at [🎓 University of Udine](https://www.uniud.it/en/uniud-international?set_language=en), and I'm interning at [💻 Danieli Automation S.p.A.](https://www.dca.it).
+I'm currently studying at [🎓 University of Udine](https://www.uniud.it/en/uniud-international?set_language=en).
 
 I don't like social networks so much, so you can only find me on [👔 LinkedIn](https://www.linkedin.com/in/enricostefanel/).  
 You can also send me an [📧 e-mail](mailto:me@enst.it?subject=[GitHub]%20Greetings), if you want.
