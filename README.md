@@ -2,12 +2,10 @@
 
 My name is Enrico, and I am a young Data Scientist from Italy (for a little less than half I am Canadian too, to be honest!).
 
-<figure width="20%" style="float:right;text-align:center;">
-    <a href="https://www.enricostefanel.it/files/curriculum-en.pdf">
-        <img src="https://www.enricostefanel.it/files/curriculum-en.jpg" width='100'>
-    </a>
-    <figcaption align="center">Fig.1 - Updated <i>curriculum</i>.</figcaption>
-</figure>
+<a href="https://www.enricostefanel.it/files/curriculum-en.pdf">
+    <img align="right" src="https://www.enricostefanel.it/files/curriculum-en.jpg" width="150px">
+</a>
+
 
 I am currently attending the Master's Degree Course in *Data Science and Scientific Computing* at [University of Trieste](https://www.units.it/en), where I am following the *Artificial Intelligence and Machine Learning* curriculum.
 
