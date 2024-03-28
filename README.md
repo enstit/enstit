@@ -4,7 +4,7 @@ My name is Enrico, and I am a young Data Scientist from Italy (for a little less
 
 <figure width="20%" style="float:right;text-align:center;">
     <a href="https://www.enricostefanel.it/files/curriculum-en.pdf">
-        <img src="https://www.enricostefanel.it/files/curriculum-en.jpg" style="width:100%;max-width:200px">
+        <img src="https://www.enricostefanel.it/files/curriculum-en.jpg" width='100'>
     </a>
     <figcaption align="center">Fig.1 - Updated <i>curriculum</i>.</figcaption>
 </figure>
