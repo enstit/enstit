@@ -1,0 +1,220 @@
+%!TEX encoding = UTF-8 Unicode
+\documentclass[a4paper,10pt,english]{article} %letterpaper
+
+\usepackage[utf8]{inputenc}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{afterpage}
+\usepackage[inline]{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{ragged2e}
+\usepackage{textcomp}
+\usepackage{tabularx}
+\usepackage{amssymb}
+
+\usepackage{pdfpages}
+
+\usepackage[calc,style=default]{datetime2}
+\DTMsetup{datesep={--},datetimesep=T}
+
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\input{glyphtounicode}	% Ensure the document is computer-readable
+\pdfgentounicode=1
+
+\newcommand\blfootnote[1]{%
+  \let\thefootnote\relax%
+  \footnotetext{#1}%
+  \let\thefootnote\svthefootnote%
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0in}
+\renewcommand{\footrulewidth}{0in}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textheight}{1in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      #3 & \small #4 \\
+    \end{tabular*}\vspace{5pt}\\
+}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%\renewcommand{\familydefault}{\sfdefault}
+ 
+%-------------------------------------------
+%%%%%%-CV-%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\raggedright
+\noindent
+\begin{tabularx}{\textwidth}{@{} l X @{\hspace{0.25cm}} l @{}}
+	{\Large Mr.~\textbf{Enrico Stefanel}} \hspace{0.2cm}\small born \DTMdate{1998-04-29}                               & \raggedleft Email: \  & \href{mailto:info@enricostefanel.it}{\texttt{info@enricostefanel.it}} \\
+	LinkedIn: \href{https://www.linkedin.com/in/enricostefanel/?locale=en_US}{\texttt{linkedin.com/in/enricostefanel}} & \raggedleft Mobile:   & \href{tel:+393450014810}{+39~345~001~4810}                            \\
+\end{tabularx}
+
+\justifying
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+
+\begin{itemize}[leftmargin=*]
+
+	\resumeSubheading
+	{Junior Product Owner}{2024--06 \textrightarrow~Present}
+	{\href{https://www.dca.it}{Danieli Automation S.p.A.}, Buttrio (Udine), ITA}{}
+	Working in the Energy \& Sustainability team, I collaborate with internal
+	and external stakeholders to identify market needs in the area of energy
+	management for large energy-intensive facilities so that the company's EMS
+	product responds to these needs in a timely and effective manner.
+	I also interface with the external development team to prioritize work,
+	monitor development, and act accordingly.
+
+	\resumeSubheading
+	{Data Engineer}{2022--06 \textrightarrow~2024--05}
+	{\href{https://www.sms-group.com}{SMS Group S.p.A.}, Tarcento (Udine), ITA}{}
+	I have been working on the design and development of long-term storage
+	systems for industrial processes data. The solutions included data pipelines
+	to retrieve data from process control databases and store them into
+	relational data warehouses and time series databases. BI tools connected to
+	these structures for analysis and reporting purposes.
+
+	\resumeSubheading
+	{Data Scientist Intern}{2021--10 \textrightarrow~2022--01}
+	{\href{https://www.dca.it}{Danieli Automation S.p.A.}, Buttrio (Udine), ITA}{}
+	I have experimented Computer Vision techniques for the development and
+	evaluation of a \textit{Multiclass Object Detection} system for the
+	recognition of handwritten annotations on casting products, using
+	\emph{state-of-the-art} Deep Learning models.
+
+\end{itemize}
+
+%-----------EDUCATION-----------------
+\section{Education}
+
+\begin{itemize}[leftmargin=*]
+
+	\resumeSubheading
+	{Master's Degree Course in \href{https://dssc.units.it/}{\textit{Data Science and Scientific Computing}}}{2022--10 \textrightarrow~Present}
+	{\href{https://www.units.it/en/}{University of Trieste}, Trieste, ITA}{\iffalse [\dots/110] \fi EQF 7}
+	I am attending the \textit{Artificial Intelligence and Machine Learning} curriculum of the \textit{Data Science and Scientific Computing} Master's course. I successfully passed exams on Advanced Programming and Algorithmic Design, Data Management for Big Data, Introduction to Machine Learning, Data Visualization and Information Retrieval, Probabilistic Machine Learning, Reinforcement Learning and Statistical Methods for Data Science. My current average grade is 29/30.
+
+	\resumeSubheading
+	{Bachelor's Degree in \href{https://www.uniud.it/en/education/offer/courses/scientific-area/mathematics-computer-sciences-multimedia-physics/bachelor-degree-courses-undergraduate-180-ects/internet-of-things-big-data-machine-learning?set_language=en}{\textit{Internet of Things, Big Data \& Web}}}{2017--10 \textrightarrow~2022--03}
+	{\href{https://www.uniud.it/en/uniud-international?set_language=en/}{University of Udine}, Udine, ITA}{[96/110] EQF 6}
+	The course focused on technologies, tools and methodologies that characterize the fields of Big Data and Machine Learning,
+	but was organized to give also solid theoretical basis of Mathematics, Statistics and Computer~Science.
+
+	%Some teachings I have attended are:
+	%\begin{itemize*}%\vspace{-0.5em}
+	%\setlength\itemsep{0em}
+	%	\item{Algorithms and Data Structures, Object-Oriented Programming and Software Engineering;}
+	%	\item{Machine Learning, Fundamentals of Data Science, Applied Statistics and Databases.}
+	% \end{itemize*}%\vspace{-0.4em}
+
+	During my studies, I also served from 2019--01 to 2021--09 as the student representative %
+	in the university's \href{https://nuva.uniud.it/funzioni/il-personale/001-digitale-nucleo-di-valutazione-modifica.pdf}{\textit{Nucleus of evaluation}}. %
+	My main role was to analyze data from all courses of study, identifying those with some type of problems.
+
+	\vspace{0.5em}
+	\iffalse
+		\resumeSubheading
+		{Scientific High School Diploma}{2012--09 \textrightarrow~2017--07}
+		{\href{http://www.malignani.ud.it/}{State Institute of Higher Education ``Arturo Malignani''}, Udine, ITA}{[77/100] EQF 4}
+		The \textit{Applied Science Course} I have attended provides advanced skills in studies relating to scientific-technological %
+		culture, with particular reference to mathematical, physical, chemical, biological, information technology and their applications.
+
+		I have participated at \href{http://olimpiadi.dm.unibo.it/}{National Mathematical Olympiad} finals, %
+		competing both alone and with my School Math team. % (in 2014) and (in 2016)
+	\fi
+\end{itemize}
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+%\textbf{Fields of Interest}{: Data Analysis, Machine Learning, \dots}
+%\hfill
+\textbf{Languages}{: Python, R, SQL, Typescript}
+\hfill
+\textbf{Technologies}{: Linux, Git, Docker}
+\vspace{0.5em}
+\\
+\textbf{Technical projects}{: A list of my coding projects is publicly available on GitHub at \url{https://www.github.com/enstit}. Projects I am particularly proud of are:
+	\begin{itemize*}[label=$\Diamond$]
+		\item \href{https://www.github.com/enstit/YOHO24}{\textit{YOHO24}}: a neural network model for Audio Segmentation and Sound Event Detection tasks;
+		\item \href{https://www.github.com/enstit/Steflix}{\textit{Steflix}}: a Recommender System project;
+		\item \href{https://www.github.com/enstit/Racetrack}{\textit{Racetrack}}: a Temporal Difference Learning study;
+	\end{itemize*}
+}
+%	\begin{itemize}\vspace{-0.5em}
+%		\setlength\itemsep{0em}
+%		\item{\textbf{Scraping and visualization project} (\url{https://enst.it/G3Sy})\hfill\textit{\small 2021--08}\vspace{2pt}\\Data visualization R project about the emergency room system in my home country during the 2021 Summer.}
+%		\item{\textbf{Bash bot for Telegram notifications} (\url{https://enst.it/4oC8})\hfill\textit{\small 2022--09}\vspace{2pt}\\Bash script that sends a Telegram message remembering to expose the correct waste bin for the following day city waste collection.}
+% 	 \end{itemize}
+
+%--------OTHER COURSES------------
+\section{Other Interests}
+
+\begin{itemize}[leftmargin=*]
+	\item \textbf{Machine Learning and Algorithms courses}{: I have attended \href{https://www.kaggle.com/enstit/}{\textit{Kaggle.com}} Data Science free courses
+		      including those on Data Visualization, Deep Learning, Computer Vision, Geospatial Analysis and Natural Language Processing,
+		      and some of the \href{https://www.hackerrank.com/enstit/}{\textit{HackerRank.com}} Algorithms and Programming courses.}\vspace{-2pt}
+	      %  	\item \textbf{Fire-fighting course}{: I have attended a course about security on work and have obtained, on 2017--03--24, the
+	      %		\textit{Certificate of technical competence for carrying out the task of fire-fighting officer}, including for high-risk situations.}\vspace{-2pt}
+	\item \textbf{\href{https://www.latex-project.org}{\LaTeX} typesetting}{: I use \LaTeX{} for writing presentations, essays and letters. Even this document is written in \LaTeX{}.}\vspace{-2pt}
+	      %	\item \textbf{Travelling}{: Solo travelling is one of my biggest passions. In my teenage years I enjoyed visiting major European capitals, as well as Canada and United States countries.}
+\end{itemize}
+
+%--------LANGUAGES------------
+\section{Languages}
+\textbf{Italian}{: Mother tongue}
+\hfill
+\textbf{English}{: IELTS General Training 7.0\footnote{The 7.0 IELTS level is equivalent to the C1 CEFR level. Further information can be found at \url{https://enst.it/uUCF}.}}
+
+%--------HOBBIES------------
+%\section{Hobbies and Lifestyle}
+%  \begin{itemize}[leftmargin=*]
+%	  \item \textbf{Minimalist lifestyle}{: Since I was 18, I like to follow a minimalist style in everything I do.}\vspace{-2pt}
+%  \end{itemize}
+
+%--------FOOTNOTES------------
+\blfootnote{I hereby authorize the processing of my personal data according to the \href{http://data.europa.eu/eli/reg/2016/679/oj}{2016/679 European Union regulation (\textit{GDPR})}.}
+\blfootnote{Dates and times are formatted following the \href{https://www.iso.org/iso-8601-date-and-time-format.html}{ISO-8601} notation (\textit{YYYY--MM--DD}T\textit{hh:mm:ss} format).}
+\DTMsavenow{now}%
+\DTMtozulu{now}{currzulu}
+\blfootnote{Last update on \DTMuse{currzulu}. An always-up-to-date version of this document is available at \url{https://enst.it/cv}.}
+
+%\includepdf[fitpaper,rotateoversize,pages={1}]{attachments/firefighting-certificate.pdf}
+
+
+\end{document}
