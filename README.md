@@ -1,6 +1,6 @@
 ### Hello, World! 👋🏼
 
-My name is Enrico, and I am a young Data Scientist from Italy (for a little less
+My name is Enrico, and I am a Product Manager for Digital Solutions in the metal industry from Italy (for a little less
 than half I am Canadian too, to be honest!).
 
 <a href="./curriculum/curriculum-en.pdf">
@@ -11,7 +11,7 @@ I am currently attending the Master's Degree Course in _Data Science and
 Scientific Computing_ at [University of Trieste](https://www.units.it/en), where
 I am following the _Artificial Intelligence and Machine Learning_ curriculum.
 
-I am also working as Junior Product Owner in the metals industry at [Danieli
+I am also working as Product Manager in the metals industry at [Danieli
 Automation S.p.A.](https://www.dca.it). In particular, I am working on the
 development of an Energy Management System (EMS).
 
